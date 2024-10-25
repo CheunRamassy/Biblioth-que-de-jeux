@@ -27,20 +27,20 @@
     </head>
     <body>
 
-        <form method="POST" action="Analyse/modifieDonne.php">
+        <form method="GET" action="Analyse/modifieDonne.php">
             <div class="container" style=" margin-top: 10%;">
-            <input type='hidden' class='form-control' name='id' value="<?php echo $allGames["ID"]; ?>">
+            <input type='hidden' class='form-control' name='ID' value="<?php echo $allGames["ID"]; ?>">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Nom</label>
                     <?php 
-                        echo "<input type='texte' class='form-control' name='nomJeu' value=".$allGames["Nom"].">";
+                        echo "<input type='text' class='form-control' name='Nom' value='".$allGames['Nom']."'>";
                     ?>
                     
                     </div>
                     <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Type du jeu</label>
                     <?php 
-                        echo "<input type='texte' class='form-control' name='typeDeJeu' value=".$allGames["Type"].">";
+                        echo "<input type='texte' class='form-control' name='Type' value=".$allGames["Type"].">";
                     ?>
                     </div>
                     <div class="mb-3 form-check">

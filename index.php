@@ -18,7 +18,7 @@
     </head>
 
     <body>
-        <div class="container-sm">           
+        <div class="container-sm" style="">           
             <form method="POST" action="listeJeu.php">
                 <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email</label>

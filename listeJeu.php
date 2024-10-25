@@ -28,7 +28,7 @@
 
         <h1 style="margin-top: 1%">Liste des jeux</h1>
             <div class="container" style="margin-top:5%">
-                <a name="Ajouter" id="Ajouter" class="btn btn-primary" href="#" role="button" >Ajouter un jeu</a>
+                <a name="Ajouter" id="Ajouter" class="btn btn-primary" href="ajoutJeu.php" role="button" >Ajouter un jeu</a>
                 <table id="maTable" class="table table-striped">
                     <thead>
                     <tr>

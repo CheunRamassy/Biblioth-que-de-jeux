@@ -1,6 +1,6 @@
 <?php 
     $host="127.0.0.1";
-    $dbname="bibliothèque de jeux";
+    $dbname="bibliotheque_de_jeux";
     $user="root";
     $pass="";
     $db =  new PDO("mysql:host=$host; dbname=$dbname;charset=UTF8", $user, $pass);
