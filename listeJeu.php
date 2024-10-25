@@ -45,12 +45,14 @@
                                 echo "<td>". $allGames["Nom"] ."</td>";
                                 echo "<td>". $allGames["Type"] ."</td>";
                                 echo "<td><a name='modifier' id='' class='btn btn-primary' href='modifieJeu.php?id=".$allGames["ID"]."' role='button' >Modifier</a>
-                                            <a name='' id='' class='btn btn-primary' href='Analyse/supprimeDonne.php?id=".$allGames["ID"]."' role='button' >Supprimer</a></td>";
+                                            <a name='supprime' id='' class='btn btn-primary' href='Analyse/supprimeDonne.php?id=".$allGames["ID"]."' role='button' >Supprimer</a></td>";
+                                            
                                 echo "</tr>";
                             }
                         ?>
                     </tbody>
                 </table>
+                </form>
 
                 
 
