@@ -68,13 +68,7 @@
         <footer>
             <!-- place footer here -->
         </footer>
-        <script>
-
-            $(document).ready(function () {
-                    $('#maTable').DataTable();
-                })
-        </script>
-
+        
         <!-- Bootstrap JavaScript Libraries -->
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
         <script
@@ -89,6 +83,13 @@
             crossorigin="anonymous"
         ></script>
         <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+        <script>
+
+            $(document).ready(function () {
+                    $('#maTable').DataTable();
+                })
+        </script>
+
     </body>
 </html>
 

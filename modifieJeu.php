@@ -27,37 +27,32 @@
     </head>
     <body>
 
-        <form method="POST">
+        <form method="POST" action="modification/modifieDonne.php">
             <div class="container" style=" margin-top: 10%;">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Nom</label>
                     <?php 
-                        echo "<input type='texte' class='form-control' id='name' value=".$allGames["Nom"].">";
+                        echo "<input type='texte' class='form-control' name='nomJeu' value=".$allGames["Nom"].">";
                     ?>
                     
                     </div>
                     <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Type du jeu</label>
                     <?php 
-                        echo "<input type='texte' class='form-control' id='typeDeJeu' value=".$allGames["Type"].">";
-                    ?>
-
-                    <?php 
-                            if ()
-                            $requete = "UPDATE * FROM liste_de_jeux WHERE ID=".$jeu;
-                            $resultat = $db->query($requete);
-                            $majGames=$resultat->fetch();
+                        echo "<input type='texte' class='form-control' name='typeDeJeu' value=".$allGames["Type"].">";
                     ?>
                     </div>
                     <div class="mb-3 form-check">
                     <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1"> -->
                     <!-- <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
                     </div>
-                    <button class="btn btn-primary" onclick="changePage();" style="margin-bottom: 1; color:white">Annuler</button>
+                    <button class="btn btn-primary" style="margin-bottom: 1; color:white">Annuler</button>
 
-                    <button type="submit" class="btn btn-primary" style="margin-bottom: 1; color:white"><a href="listeJeu.php">Enregistrer</a></button>
+                    <button type="submit" class="btn btn-primary" style="margin-bottom: 1; color:white">Enregistrer</button>
             </div>
         </form>
+
+
         <header>
             <!-- place navbar here -->
         </header>
@@ -67,13 +62,13 @@
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
 
-        <script>
+        <!-- <script>
             function changePage(){
                 document.getElementsByTagName('button').innerHTML=("<a href='listeJeu.php'>");
 
             }
 
-        </script>
+        </script> -->
 
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
