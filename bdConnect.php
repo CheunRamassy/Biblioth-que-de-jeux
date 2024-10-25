@@ -3,7 +3,7 @@
     $dbname="bibliothèque de jeux";
     $user="root";
     $pass="";
-    $db =  new PDO("mysql:host=$host; dbname=$dbname", $user, $pass);
+    $db =  new PDO("mysql:host=$host; dbname=$dbname;charset=UTF8", $user, $pass);
     // print_r($db);
 
     // $requete = "SELECT * FROM liste_de_jeux ";

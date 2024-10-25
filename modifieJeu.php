@@ -27,8 +27,9 @@
     </head>
     <body>
 
-        <form method="POST" action="modification/modifieDonne.php">
+        <form method="POST" action="Analyse/modifieDonne.php">
             <div class="container" style=" margin-top: 10%;">
+            <input type='hidden' class='form-control' name='id' value="<?php echo $allGames["ID"]; ?>">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Nom</label>
                     <?php 
