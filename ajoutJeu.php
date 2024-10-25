@@ -22,7 +22,7 @@
 
     <h1 style="margin-top: 1%">Ajouter un jeu</h1>
     <div class="container-sm" style="">           
-        <form method="GET" action="ajoutDonne.php">
+        <form method="GET" action="Analyse/ajoutDonne.php">
             <div class="mb-3">
             <label class="form-label">Nom</label>
             <input type="texte" class="form-control" name="Nom" id="name" required>
